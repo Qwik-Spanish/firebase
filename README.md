@@ -128,3 +128,8 @@ netlify deploy --build
 You must use the `--build` flag whenever you deploy. This ensures that the Edge Functions that this starter site relies on are generated and available when you deploy your site.
 
 Add `--prod` flag to deploy to production.
+
+
+https://blog.logrocket.com/build-crud-application-react-firebase-web-sdk-v9/
+https://console.firebase.google.com/u/2/project/qwik-osm/firestore/data/~2F?hl=es-419
+https://www.cloudskillsboost.google/focuses/8391?parent=catalog
