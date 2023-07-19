@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import { Firestore, getFirestore } from "firebase/firestore";
 
 export interface IFirestoreEnvs {
   apiKey?: string;
@@ -10,4 +10,4 @@ export interface IFirestoreEnvs {
   appId?: string;
 }
 
-export const db = (envs: IFirestoreEnvs) => getFirestore(initializeApp(envs))
+export const db = (envs: IFirestoreEnvs) => getFirestore(initializeApp(envs)) as Firestore;
